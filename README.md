@@ -28,7 +28,7 @@ YiCue 是一款 Windows 桌面应用：捕获电脑声音、麦克风或混合�
 
 ### [Windows 安装包下载入口（公开发布准备中）](https://github.com/drydraft/YiCue-Releases/releases/latest)
 
-公开下载入口将在独立的 `YiCue-Releases` 仓库发布后启用。下载时选择 Release 的 **Assets** 中的 `YiCue-版本号-Setup.exe`。
+公开下载入口将在本仓库发布首个安装包 Release 后启用。下载时选择 Release 的 **Assets** 中的 `YiCue-版本号-Setup.exe`。
 
 安装包包含运行环境。安装后直接启动应用，在应用内下载识别模型即可使用。模型文件需单独下载，翻译服务按需配置。
 
@@ -111,7 +111,7 @@ Qwen3-ASR 使用 GGUF 模型，自动选择可用的原生后端。SenseVoice Sm
 
 ## 使用前了解
 
-- 当前提供 Windows x64 安装包；识别速度、准确率和延迟受模型、硬件、噪声与音频设备影响。
+- 当前支持 Windows x64；识别速度、准确率和延迟受模型、硬件、噪声与音频设备影响。
 - 混合音频共用一路识别，不区分讲话人。
 - 持续讲话或处理跟不上时，实时队列可能丢弃过旧片段；字幕记录不承诺完整逐字稿。
 - 当前更新通过下载新安装包完成；应用内更新入口尚在准备。
