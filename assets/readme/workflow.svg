@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1200" height="600" viewBox="0 0 1200 600"
+     role="img" aria-labelledby="title desc">
+  <title id="title">YiCue 字幕流程</title>
+  <desc id="desc">电脑声音或麦克风输入经过本地语音识别，显示为桌面字幕。识别文本也可选择在线翻译，再显示为桌面字幕。</desc>
+
+  <rect width="1200" height="600" fill="#FFFFFF"/>
+
+  <g id="main-flow" fill="none" stroke="#0084FF" stroke-width="6"
+     stroke-linecap="round">
+    <path d="M 382 186 H 428"/>
+    <path d="M 768 186 H 818"/>
+  </g>
+
+  <g id="optional-translation-flow" fill="none" stroke="#0084FF"
+     stroke-width="5" stroke-dasharray="12 12" stroke-linecap="round"
+     stroke-linejoin="round">
+    <path d="M 600 318 V 400"/>
+    <path d="M 768 478 H 986 V 318"/>
+  </g>
+
+  <g id="flow-arrowheads" fill="none" stroke="#0084FF" stroke-width="5"
+     stroke-linecap="round" stroke-linejoin="round">
+    <path d="M 416 178 L 428 186 L 416 194"/>
+    <path d="M 806 178 L 818 186 L 806 194"/>
+    <path d="M 592 388 L 600 400 L 608 388"/>
+    <path d="M 978 330 L 986 318 L 994 330"/>
+  </g>
+
+  <g id="input">
+    <rect x="64" y="72" width="300" height="228" rx="24"
+          fill="#FFFFFF" stroke="#64748B" stroke-opacity="0.3" stroke-width="2"/>
+    <g fill="#111827" font-family="Segoe UI, Microsoft YaHei, sans-serif"
+       font-size="54" font-weight="600" text-anchor="middle">
+      <text x="214" y="164">电脑声音</text>
+      <text x="214" y="232">麦克风</text>
+    </g>
+  </g>
+
+  <g id="local-recognition">
+    <rect x="450" y="72" width="300" height="228" rx="24"
+          fill="#0084FF" fill-opacity="0.06" stroke="#0084FF" stroke-width="2"/>
+    <g fill="#111827" font-family="Segoe UI, Microsoft YaHei, sans-serif"
+       font-size="54" font-weight="600" text-anchor="middle">
+      <text x="600" y="164">本地</text>
+      <text x="600" y="232">语音识别</text>
+    </g>
+  </g>
+
+  <g id="desktop-subtitles">
+    <rect x="836" y="72" width="300" height="228" rx="24" fill="#111827"/>
+    <text x="986" y="206" fill="#FFFFFF"
+          font-family="Segoe UI, Microsoft YaHei, sans-serif"
+          font-size="54" font-weight="600" text-anchor="middle">桌面字幕</text>
+  </g>
+
+  <g id="optional-translation">
+    <text x="642" y="376" fill="#64748B"
+          font-family="Segoe UI, Microsoft YaHei, sans-serif"
+          font-size="48" font-weight="500">可选</text>
+    <rect x="450" y="418" width="300" height="120" rx="24"
+          fill="#FFFFFF" stroke="#0084FF" stroke-width="2"/>
+    <text x="600" y="498" fill="#111827"
+          font-family="Segoe UI, Microsoft YaHei, sans-serif"
+          font-size="54" font-weight="600" text-anchor="middle">在线翻译</text>
+  </g>
+</svg>
