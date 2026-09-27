@@ -20,15 +20,15 @@ YiCue 是一款 Windows 桌面应用：捕获电脑声音、麦克风或混合�
   <img src="assets/readme/subtitle-overlay.png" width="100%" alt="YiCue 字幕悬浮窗：原文在上，中文译文在下">
 </p>
 
-> 界面截图由当前 0.1.9 源码渲染。示例字幕用于展示布局；实际识别与翻译结果取决于音频、模型和服务。
+> 界面截图由 0.1.10 源码渲染。示例字幕用于展示布局；实际识别与翻译结果取决于音频、模型和服务。
 
 ## 下载与安装
 
-**当前产品版本：0.1.9 · Windows x64**
+**当前产品版本：0.1.10 · Windows x64**
 
-### [Windows 安装包下载入口（公开发布准备中）](https://github.com/drydraft/YiCue-Releases/releases/latest)
+### [Windows 安装包下载（v0.1.10）](https://github.com/drydraft/YiCue-Releases/releases/download/v0.1.10/YiCue-0.1.10-Setup.exe)
 
-公开下载入口将在本仓库发布首个安装包 Release 后启用。下载时选择 Release 的 **Assets** 中的 `YiCue-版本号-Setup.exe`。
+从 [YiCue-Releases v0.1.10](https://github.com/drydraft/YiCue-Releases/releases/tag/v0.1.10) 的 **Assets** 下载安装包；同一页面提供安装包 SHA-256、EULA、第三方声明和来源材料。
 
 安装包包含运行环境。安装后直接启动应用，在应用内下载识别模型即可使用。模型文件需单独下载，翻译服务按需配置。
 
@@ -119,7 +119,7 @@ Qwen3-ASR 使用 GGUF 模型，自动选择可用的原生后端。SenseVoice Sm
 
 ## 许可与反馈
 
-YiCue 以专有软件形式提供，源码在私有开发仓库维护。软件许可见 [EULA 审阅草案](EULA.md)，第三方组件及模型保留各自的许可，详见 [第三方声明](THIRD_PARTY_NOTICES.md)。公开发行前将确认对应版本的正式许可条款。
+YiCue 由 **drydraft** 发行，以专有软件形式提供，源码在私有开发仓库维护。0.1.10 免费用于个人活动、学习、工作及组织内部业务，具体条款见 [最终用户许可协议（EULA）](EULA.md)。第三方组件及模型保留各自的许可，详见 [第三方声明](THIRD_PARTY_NOTICES.md)。
 
 遇到问题时，请提供应用版本、Windows 版本、所选模型、音频来源和复现步骤。设置中的“系统日志 → 打开日志目录”可以找到运行日志；分享前请检查并移除敏感内容。
 
